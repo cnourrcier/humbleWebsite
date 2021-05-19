@@ -1,0 +1,64 @@
+/*===============================================================================================================*/
+/*
+    Author:             Jan Veintidos
+    Date Modified:      5/19/2021
+    Description:        This css code will be linked to the main page 
+
+*/
+
+/*===============================================================================================================*/
+/* Nav Bar at the top of the page */
+
+/*Change the margin so it fits the entire screen*/
+#navBar{
+    margin: -8px;
+}
+
+/*
+   take out the bullets
+   hide any overflow  revist if not in the nav bar background doesn't work properly
+   set background color to black 
+*/
+#navBar ul{
+    list-style-type: none;
+    overflow: hidden;
+    background-color: black;
+}
+
+/* move the hyperlinks all to the left
+*/
+#navBar ul li{
+    float: left;
+    border-right: 2px solid white;
+}
+
+/*
+   display the links as blocks
+   change the text color to white
+   align the text to the center
+   padding to the element
+   text-decoration takes out the underline under the text
+*/
+#navBar ul li a{
+    display: block;
+    color: white;    
+    text-align: center;
+    padding: 25px 25px;
+    text-decoration: none;
+}
+
+/*if a person hoovers their mouse over the element change it's color to blue  */
+#navBar ul li a:hover{
+    background-color: blue;
+}
+
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
+/*===============================================================================================================*/
